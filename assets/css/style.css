@@ -1,0 +1,48 @@
+body{
+    font-family: "Roboto";
+}
+
+.logo{
+    width: 16rem;
+    cursor: pointer;
+}
+
+.footertext{
+    font-size:small;
+}
+
+
+footer img{
+    width: 11rem;
+    margin-top: 1.2rem;
+    transition: all 1s ease-in-out;
+}
+
+footer img:hover{
+    cursor: pointer;
+    transform: scale(1.11);
+}
+.card{
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.07);
+    box-shadow: 5px 5px 10px rgb(78, 78, 77);
+}
+.priceNew{
+    font-size: 1.5rem;
+}
+
+.priceAnt{
+    text-decoration: line-through;
+}
+
+.btn{
+    margin-bottom: 1.5rem;
+}
+
+.btn-1:hover{
+    transform: scale(1.05);
+    background-color: hwb(39 18% 7%);
+}
